@@ -1,0 +1,291 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Hotel Maharaja Palace, Aligarh · Opposite Aligarh Railway Station</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400&amp;display=swap"/>
+    <link rel="stylesheet" href="hark.css"/>
+    <link rel="stylesheet" href="hark-hero.css"/>
+    <link rel="stylesheet" href="hark-cards.css"/>
+    <style>
+      .x-fac { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+      .x-fac li { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: var(--r-m); background: var(--fill-tertiary); font: var(--type-label); color: var(--text-primary); }
+      .x-fac svg { flex: none; width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; color: var(--text-secondary); }
+      .x-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 22px 24px; border-radius: var(--r-m); background: var(--fill-tertiary); }
+      .x-form label { display: grid; gap: 6px; font: var(--type-label); color: var(--text-secondary); }
+      .x-form input, .x-form select { min-height: var(--tap); padding: 0 12px; border: 1px solid var(--stroke-primary); border-radius: var(--r-s); background: var(--fill-primary-on); color: var(--text-primary); font: var(--type-body); width: 100%; }
+      .x-form__foot { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+      .x-form button.btn { cursor: pointer; }
+      @media (max-width: 599px) { .x-form { grid-template-columns: 1fr; padding: 18px; } }
+      .x-wa { display: none; }
+      @media (max-width: 599px) {
+        .x-wa { display: inline-flex; align-items: center; gap: 8px; position: fixed; right: 16px; bottom: 16px; z-index: 50; min-height: 48px; padding: 0 18px; border-radius: var(--r-pill); background: var(--fill-primary); color: var(--text-primary-on); font: var(--type-label); text-decoration: none; box-shadow: var(--hark-shadow); }
+        .x-wa svg { width: 20px; height: 20px; fill: currentColor; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto=""></header>
+      <main class="main">
+        <section class="hero">
+          <img class="hero__img" src="p5.jpg" alt="Deluxe room with an upholstered double bed"/>
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Aligarh · स्वागत है</p>
+            <h1>Hotel Maharaja Palace</h1>
+            <p class="hero__sub">Right opposite Aligarh Railway Station · 2 minutes walk</p>
+            <p class="hero__meta">4.6★ on Google from 2,179 reviews · Free Wi-Fi · Free parking · 24-hour room service</p>
+          </div>
+          <aside class="callout" aria-label="Book your room">
+            <p class="callout__head">Book direct</p>
+            <p class="callout__lead"><strong>Book your room directly with us.</strong> Message or call, and we confirm your stay. सीधे बुक करें।</p>
+            <div class="links">
+              <a class="btn" href="https://wa.me/919068880744?text=Namaste%2C%20I%20want%20to%20book%20a%20room%20at%20Hotel%20Maharaja%20Palace" rel="noopener" target="_blank">Book on WhatsApp</a>
+              <a class="btn" href="tel:+919068880744">Call now</a>
+            </div>
+          </aside>
+          <p class="hero__credit">Our Deluxe Room</p>
+        </section>
+
+        <section class="section" id="about" data-nav="About">
+          <div class="head">
+            <p class="head__eyebrow">About us · हमारे बारे में</p>
+            <h2>A family hotel, steps from the station.</h2>
+          </div>
+          <div class="prose">
+            <p>We are on Railway Road, Chauraha Mal Godown, opposite the city-side gate (platform 7) of Aligarh Junction.</p>
+            <p>Expect clean, comfortable rooms with marble floors, polite staff, home-style food, and a safe, quiet atmosphere. Ideal for families, exam visitors, business travellers and AMU visitors.</p>
+          </div>
+          <figure class="band">
+            <img src="p4.jpg" alt="A clean, bright hotel corridor" loading="lazy"/>
+            <figcaption>Clean, quiet corridors on every floor</figcaption>
+          </figure>
+        </section>
+
+        <section class="section" id="rooms" data-nav="Rooms">
+          <div class="head">
+            <p class="head__eyebrow">Rooms · कमरे</p>
+            <h2>Three rooms, all air-conditioned.</h2>
+            <p class="head__sub">Breakfast is available for a small extra charge.</p>
+          </div>
+          <div class="photo-cards">
+            <article class="photo-card" id="classic">
+              <div class="photo-card__stage">
+                <p class="photo-card__rank">Best value</p>
+                <div class="photo-card__photos">
+                  <img src="p2.jpg" alt="Classic Room with TV and seating"/>
+                </div>
+              </div>
+              <div class="photo-card__body">
+                <div class="photo-card__head"><h3>Classic Room</h3><p class="photo-card__price">₹1,170</p></div>
+                <p class="photo-card__meta">Double bed · 156 sq ft · from ₹1,170 per night</p>
+                <p class="photo-card__note">AC, Wi-Fi, TV, study table and laundry service.</p>
+                <a class="link" href="https://wa.me/919068880744?text=Namaste%2C%20I%20want%20to%20book%20a%20room%20at%20Hotel%20Maharaja%20Palace" rel="noopener" target="_blank">Book on WhatsApp</a>
+              </div>
+            </article>
+            <article class="photo-card" id="deluxe">
+              <div class="photo-card__stage"></div>
+              <div class="photo-card__body">
+                <div class="photo-card__head"><h3>Deluxe Room</h3></div>
+                <p class="photo-card__meta">Double bed · 156 sq ft · ask for today&#39;s rate</p>
+                <p class="photo-card__note">AC, Wi-Fi, TV, mineral water and a study table.</p>
+                <a class="link" href="https://wa.me/919068880744?text=Namaste%2C%20I%20want%20to%20book%20a%20room%20at%20Hotel%20Maharaja%20Palace" rel="noopener" target="_blank">Book on WhatsApp</a>
+              </div>
+            </article>
+            <article class="photo-card" id="family">
+              <div class="photo-card__stage">
+                <p class="photo-card__rank">For families</p>
+                <div class="photo-card__photos">
+                  <img src="p3.jpg" alt="Family Room with two beds" loading="lazy"/>
+                </div>
+              </div>
+              <div class="photo-card__body">
+                <div class="photo-card__head"><h3>Family Room</h3></div>
+                <p class="photo-card__meta">Two beds · ask for today&#39;s rate</p>
+                <p class="photo-card__note">AC, private bathroom with shower, free toiletries, TV, electric kettle and wardrobe.</p>
+                <a class="link" href="https://wa.me/919068880744?text=Namaste%2C%20I%20want%20to%20book%20a%20room%20at%20Hotel%20Maharaja%20Palace" rel="noopener" target="_blank">Book on WhatsApp</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="facilities" data-nav="Facilities">
+          <div class="head">
+            <p class="head__eyebrow">Facilities · सुविधाएं</p>
+            <h2>Everything you need for an easy stay.</h2>
+          </div>
+          <ul class="x-fac">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"></path><circle cx="12" cy="19.5" r="1"></circle></svg>Free Wi-Fi</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"></rect><path d="M9 17V7h4a3 3 0 0 1 0 6H9"></path></svg>Free parking</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M4 7l16 10M20 7L4 17"></path></svg>Air-conditioned rooms</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18M5 18a7 7 0 0 1 14 0M12 8V6"></path></svg>24-hour room service</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2v8a2 2 0 0 0 4 0V2M9 10v12M17 2c-2 0-3 3-3 7h3v13"></path></svg>Restaurant, home-style veg food</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"></rect><circle cx="12" cy="13" r="5"></circle><path d="M8 5h1"></path></svg>Laundry</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"></rect><path d="M9 9l3-3 3 3M9 15l3 3 3-3"></path></svg>Lift</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg>Power backup</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7l13 4-2 5L3 12zM14 16l2 4h4M18 10l3-1"></path></svg>CCTV</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 20V10h14v10M12 10V6M9 6h6"></path></svg>24-hour front desk</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="7" width="14" height="13" rx="2"></rect><path d="M9 7V4h6v3M9 11v5M15 11v5"></path></svg>Luggage storage</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3 4 5 6 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-9zM4 21l16-3M4 18l16 3"></path></svg>Bonfire &amp; lounge in winter</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3l-4 9M7 12h8l2 9H5z"></path></svg>Housekeeping</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><path d="M2 10h20M6 15h4"></path></svg>Card &amp; UPI payment</li>
+          </ul>
+        </section>
+
+        <section class="section" id="ratings" data-nav="Reviews">
+          <div class="head">
+            <p class="head__eyebrow">Why guests choose us</p>
+            <h2>Rated highest for location.</h2>
+            <p class="head__sub">Guest ratings on MakeMyTrip, out of 5.</p>
+          </div>
+          <section class="stats">
+            <div class="stat"><span class="stat__fig">4.6</span><span class="stat__label">Location</span></div>
+            <div class="stat"><span class="stat__fig">4.1</span><span class="stat__label">Cleanliness</span></div>
+            <div class="stat"><span class="stat__fig">4.2</span><span class="stat__label">Value for money</span></div>
+            <div class="stat"><span class="stat__fig">4.1</span><span class="stat__label">Food</span></div>
+          </section>
+          <div class="cards">
+            <div>
+              <p class="quote">“Rooms were clean, comfortable and well maintained. Staff polite and welcoming. Food delicious.”</p>
+              <p class="fineprint">Google review, Sep 2026</p>
+            </div>
+            <div>
+              <p class="quote">“Location is very good, just in front of the 7th platform gate of Aligarh railway station. Value for money.”</p>
+              <p class="fineprint">Sourabh M.</p>
+            </div>
+            <div>
+              <p class="quote">“Great stay with family, came for my daughter&#39;s exams. Extraordinary service, polite staff.”</p>
+              <p class="fineprint">MD Manzoor</p>
+            </div>
+            <div>
+              <p class="quote">“Good food, good staff and good rooms. Easily findable.”</p>
+              <p class="fineprint">Ravi K.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="policies" data-nav="Policies">
+          <div class="head">
+            <p class="head__eyebrow">Hotel policies · नियम</p>
+            <h2>Good to know before you arrive.</h2>
+          </div>
+          <div class="cards">
+            <div>
+              <h3>Check-in and out</h3>
+              <ul>
+                <li>Check-in 12:00 PM</li>
+                <li>Check-out 11:00 AM</li>
+              </ul>
+              <p class="fineprint">Early check-in and late check-out subject to availability.</p>
+            </div>
+            <div>
+              <h3>Valid ID required</h3>
+              <p>Aadhaar, Passport, Driving Licence or any Govt ID.</p>
+            </div>
+            <div>
+              <h3>House rules</h3>
+              <ul>
+                <li>Unmarried couples not allowed</li>
+                <li>Pets not allowed</li>
+                <li>Outside food not allowed</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="location" data-nav="Location">
+          <div class="head">
+            <p class="head__eyebrow">Location &amp; nearby · पास में</p>
+            <h2>Opposite the station, close to the city.</h2>
+            <p class="head__sub">Chauraha Mal Godown, Railway Road, City, Aligarh, Uttar Pradesh 202001</p>
+          </div>
+          <div class="pair">
+            <div class="breakdown">
+              <dl>
+                <div class="row"><dt>Aligarh Junction railway station <small>Opposite the city-side gate, platform 7</small></dt><dd>2 min walk</dd></div>
+                <div class="row"><dt>Old Bus Stand / GT Road</dt><dd>Nearby</dd></div>
+                <div class="row"><dt>Aligarh Fort</dt><dd>Nearby</dd></div>
+                <div class="row"><dt>D.S. College</dt><dd>Nearby</dd></div>
+                <div class="row"><dt>Shri Varshney College</dt><dd>Nearby</dd></div>
+                <div class="row"><dt>Aligarh Muslim University</dt><dd>About 4 km</dd></div>
+                <div class="row"><dt>Aligarh Airport</dt><dd>About 9.7 km</dd></div>
+              </dl>
+            </div>
+            <aside class="callout" aria-label="Contact">
+              <p class="callout__head">Contact us · संपर्क करें</p>
+              <p class="callout__lead"><strong>Phone / WhatsApp: <a class="link" href="tel:+919068880744">+91 90688 80744</a></strong> We answer around the clock.</p>
+              <div class="links">
+                <a class="btn" href="tel:+919068880744">Call</a>
+                <a class="btn" href="https://wa.me/919068880744?text=Namaste%2C%20I%20want%20to%20book%20a%20room%20at%20Hotel%20Maharaja%20Palace" rel="noopener" target="_blank">WhatsApp</a>
+                <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Maharaja%20Palace%2C%20Railway%20Rd%2C%20Aligarh%20202001" rel="noopener" target="_blank">Get directions</a>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section" id="enquiry" data-nav="Enquiry">
+          <div class="head">
+            <p class="head__eyebrow">Booking enquiry · बुकिंग</p>
+            <h2>Send us your dates on WhatsApp.</h2>
+            <p class="head__sub">Fill this in and WhatsApp opens with your details ready to send.</p>
+          </div>
+          <form class="x-form" id="enquiry-form">
+            <label>Name<input name="name" type="text" autocomplete="name" required=""/></label>
+            <label>Phone<input name="phone" type="tel" autocomplete="tel" required=""/></label>
+            <label>Check-in date<input name="checkin" type="date" required=""/></label>
+            <label>Check-out date<input name="checkout" type="date" required=""/></label>
+            <label>Number of guests<input name="guests" type="number" min="1" max="10" value="2" required=""/></label>
+            <label>Room type
+              <select name="room">
+                <option>Classic Room</option>
+                <option>Deluxe Room</option>
+                <option>Family Room</option>
+              </select>
+            </label>
+            <div class="x-form__foot">
+              <button class="btn" type="submit">Send on WhatsApp</button>
+              <span class="fineprint">We reply with today&#39;s rate and confirm your room.</span>
+            </div>
+          </form>
+        </section>
+
+        <section class="section" id="faq" data-nav="FAQ">
+          <div class="head">
+            <p class="head__eyebrow">Questions · सवाल</p>
+            <h2>Quick answers.</h2>
+          </div>
+          <div class="cards">
+            <div><h3>Is parking free?</h3><p>Yes.</p></div>
+            <div><h3>Is Wi-Fi free?</h3><p>Yes.</p></div>
+            <div><h3>How far is the station?</h3><p>2 minutes walk, opposite the city-side gate.</p></div>
+            <div><h3>Do you serve food?</h3><p>Yes, home-style vegetarian meals and breakfast.</p></div>
+            <div><h3>Can I pay by UPI?</h3><p>Yes.</p></div>
+          </div>
+        </section>
+      </main>
+      <footer class="foot">
+        <p>© 2026 Hotel Maharaja Palace, Aligarh. Website by Toolsaku.</p>
+        <nav aria-label="Back to sections" data-auto=""></nav>
+      </footer>
+      <a aria-label="Book on WhatsApp" class="x-wa" href="https://wa.me/919068880744?text=Namaste%2C%20I%20want%20to%20book%20a%20room%20at%20Hotel%20Maharaja%20Palace" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.8-1.1-4.6-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"></path></svg>WhatsApp</a>
+    </div>
+    <script src="hark.js"></script>
+    <script src="hark-cards.js"></script>
+    <script>
+      document.getElementById("enquiry-form").addEventListener("submit", function (e) {
+        e.preventDefault();
+        var f = e.target.elements;
+        var msg = "Namaste, I want to book a room at Hotel Maharaja Palace.\n" +
+          "Name: " + f.name.value + "\n" +
+          "Phone: " + f.phone.value + "\n" +
+          "Check-in: " + f.checkin.value + "\n" +
+          "Check-out: " + f.checkout.value + "\n" +
+          "Guests: " + f.guests.value + "\n" +
+          "Room type: " + f.room.value;
+        window.open("https://wa.me/919068880744?text=" + encodeURIComponent(msg), "_blank", "noopener");
+      });
+    </script>
+  
+
+</body></html>
